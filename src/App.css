@@ -1,0 +1,324 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  margin: 0 0 10px 0;
+}
+
+p{
+  margin: 0;
+}
+
+.navbar_logo{
+  display: block;
+}
+
+.navbar{
+  display: flex;  
+  align-items: center;
+  margin: 0 120px;
+  height: 64px;
+  justify-content: space-between;
+}
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_option{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #071eb3;
+    margin: 0 25px;     
+}
+
+a{
+  text-decoration: none;
+  color: #071eb3;
+}
+
+.testimonial, .configurator{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 120px;
+  background-color: #F9FAFE;
+  height: 100vh;
+}
+
+.testimonial_clm1{
+  width: 100%;
+}
+
+.testimonial_clm2{
+  width: 100%;
+}
+
+.testimonial_title{
+  width: 389px;
+  height: 56px;
+  background-color: #071eb3;
+  display: flex;
+}
+
+.title_text{
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.testimonial_content{
+  width: 1002px;
+  height: 254px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.testimonial_page{
+  width: 120px;
+  height: 56px;
+  background-color: #071eb3;
+  position: absolute;
+  bottom: 15%;
+  right: 20%;
+  display: flex;
+}
+
+.testimonial_arrowl{
+  width: 56px;
+  height: 56px;
+  background-color: #071eb3;
+  position: absolute;
+  bottom: 15%;
+  right: 15.7%;
+}
+
+.testimonial_arrowr{
+  width: 56px;
+  height: 56px;
+  background-color: #071eb3;
+  position: absolute;
+  bottom: 15%;
+  right: 11.5%;
+}
+
+.fas{
+  color: white;
+  font-size: 24px;
+}
+
+.page{
+  color: white;
+  font-size: 24px;
+  font-family: CormorantGaramond;
+  align-self: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.7px;
+}
+
+.testimonial_1{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.testimonial_2{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.column1{
+  width: 20%;
+}
+
+.column2{
+  width: 40%;
+  margin-left: 240px;
+}
+
+.position{
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+.configurator_1{
+  width: 30%;
+}
+
+.configurator_2{
+  width: 65%;
+}
+
+.configurator_title{
+  width: 269px;
+  height: 56px;
+  background-color: #071eb3;
+  display: flex;
+}
+
+.configurator_title2{  
+  width: 207px;
+  height: 56px;
+  background-color: #071eb3;
+  margin: 10px 0 32px 0;
+  display: flex;
+}
+
+.configurator_text{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #161616;
+}
+
+.configurator_monthly{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 0 10% 30%;
+  justify-content: space-between;
+}
+
+.monthly_1{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.monthly_1_text{
+  font-size: 14px;
+  font-weight: bold;
+  color: #161616;
+  align-self: flex-end;
+}
+
+.monthly_rectangle{
+  width: 50%;
+  width: 190px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px #d6dcff;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.monthly_1_number{
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  color: #161616;
+  align-self: center;
+  margin: 0 40px;
+}
+
+.monthly_1_price{
+  width: 15px;
+  height: 40px;
+  opacity: 0.24;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+  color: #161616;
+  align-self: center;
+  margin: 0 10px;
+}
+
+.monthly_2{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.configurator_full{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 0 10% 30%;
+  justify-content: space-between;
+}
+
+.full_1{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.full_1_text{
+  font-size: 14px;
+  font-weight: bold;
+  color: #161616;
+  width: 167px;
+  height: 32px;
+  align-self: flex-end;
+}
+
+.full_rectangle{
+  width: 50%;
+  width: 67px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px #d6dcff;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.full_1_number{
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.8px;
+  color: #161616;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.full_2{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.configurator_totals{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 30%;
+}
+
+.totals_1{
+  width: 45%;
+}
+
+.totals_price{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.8px;
+  color: #071eb3;
+}
+
+.totals_number{
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #071eb3;
+}
+
+.totals_2{
+  width: 45%;
+}
+
+.total_text{
+  font-size: 14px;
+  font-weight: bold;
+  color: #161616;
+  margin: 0 auto;
+}
+
